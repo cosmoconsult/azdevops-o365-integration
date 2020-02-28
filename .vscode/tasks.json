@@ -9,10 +9,10 @@
             "script": "start:dev",
             "problemMatcher": []
         },
-        {
+        {   
             "label": "Copy to share",
             "type": "shell",
-            "command": "Remove-Item -Force -Recurse C:\\Users\\WDAGUtilityAccount\\Desktop\\GitHub\\cosmo-office-integration\\; mkdir C:\\Users\\WDAGUtilityAccount\\Desktop\\GitHub\\cosmo-office-integration\\; Get-ChildItem C:\\temp\\cosmo-office-integration\\ -Exclude \"*node_modules*\" | % { Copy-Item -Path $_ -Recurse -Destination 'C:\\Users\\WDAGUtilityAccount\\Desktop\\GitHub\\cosmo-office-integration\\' }"
+            "command": "Remove-Item -Force -Recurse C:\\Users\\WDAGUtilityAccount\\Desktop\\GitHub\\azdevops-o365-integration\\; mkdir C:\\Users\\WDAGUtilityAccount\\Desktop\\GitHub\\azdevops-o365-integration\\; Get-ChildItem C:\\temp\\azdevops-o365-integration\\ -Exclude \"*node_modules*\" | % { Copy-Item -Path $_ -Recurse -Destination 'C:\\Users\\WDAGUtilityAccount\\Desktop\\GitHub\\azdevops-o365-integration\\' }"
         }
     ]
 }
