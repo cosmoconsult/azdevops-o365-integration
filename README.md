@@ -1,0 +1,1 @@
+A Azure DevOps extension that allows the integration of O365 (SharePoint) documents into work items e.g. for concepts

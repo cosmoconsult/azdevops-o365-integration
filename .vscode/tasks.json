@@ -1,0 +1,18 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558 
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Start local webpack",
+            "type": "npm",
+            "script": "start:dev",
+            "problemMatcher": []
+        },
+        {
+            "label": "Copy to share",
+            "type": "shell",
+            "command": "Remove-Item -Force -Recurse C:\\Users\\WDAGUtilityAccount\\Desktop\\GitHub\\cosmo-office-integration\\; mkdir C:\\Users\\WDAGUtilityAccount\\Desktop\\GitHub\\cosmo-office-integration\\; Get-ChildItem C:\\temp\\cosmo-office-integration\\ -Exclude \"*node_modules*\" | % { Copy-Item -Path $_ -Recurse -Destination 'C:\\Users\\WDAGUtilityAccount\\Desktop\\GitHub\\cosmo-office-integration\\' }"
+        }
+    ]
+}

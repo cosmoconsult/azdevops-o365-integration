@@ -1,0 +1,31 @@
+{
+  "manifestVersion": 1,
+  "version": "0.1.1",
+  "name": "COSMO Office365 integration",
+  "description": "Adds a tab 'O365 integration' to work items",
+  "publisher": "tfenster",
+  "categories": ["Azure Boards"],
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services"
+    }
+  ],
+  "content": {
+    "details": {
+      "path": "README.md"
+    }
+  },
+  "icons": {
+    "default": "img/cosmo.png"
+  },
+  "files": [
+    {
+      "path": "dist",
+      "addressable": true
+    },
+    {
+      "path": "img",
+      "addressable": true
+    }
+  ]
+}
