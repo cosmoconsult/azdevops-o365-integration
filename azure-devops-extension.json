@@ -1,10 +1,12 @@
 {
   "manifestVersion": 1,
-  "version": "0.1.1",
+  "version": "0.1.2",
   "name": "COSMO Office365 integration",
   "description": "Adds a tab 'O365 integration' to work items",
-  "publisher": "tfenster",
-  "categories": ["Azure Boards"],
+  "publisher": "cosmoconsult",
+  "categories": [
+    "Azure Boards"
+  ],
   "targets": [
     {
       "id": "Microsoft.VisualStudio.Services"

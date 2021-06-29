@@ -1,7 +1,7 @@
 {
   "name": "cosmo-o365-integration",
   "description": "A short description of my extension",
-  "author": "tfenster",
+  "author": "cosmoconsult",
   "scripts": {
     "clean": "rimraf ./dist ./out",
     "compile": "npm run clean && webpack --mode production",
